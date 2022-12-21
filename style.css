@@ -143,6 +143,102 @@ nav ul li a:hover {
 
 }
 
-.card1 img {
-    
+.comment-content {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    gap: 30px;
+}
+
+.comment {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 100px;
+    width: 100vw;
+    height: 30vh;
+    background-color: #cdd8e4;
+}
+
+input {
+    text-align: center;
+    height: 30px;
+    width: 20vw;
+    border: 0px;
+    border-radius: 15px;
+}
+
+input:checked {
+    border: 0px;
+}
+
+.send-btn {
+    width: 150px;
+    height: 40px;
+    background-color: rgb(184, 93, 28);
+    border-radius: 15px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition-duration: .5s;
+}
+
+.send-btn a {
+    text-decoration: none;
+    color: black;
+    font-size: 20px;
+}
+
+.send-btn:hover {
+    background-color: rgb(133, 68, 21);
+}
+
+.additional {
+    margin-top: 100px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+
+.additional-content {
+    display: grid;
+    gap: 30px;
+    grid-template-areas:
+    'card1 card2';
+}
+
+.load-btn {
+    margin-top: 100px;
+    width: 150px;
+    height: 40px;
+    background-color: rgb(184, 93, 28);
+    border-radius: 15px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition-duration: .5s;
+}
+
+.load-btn a {
+    text-decoration: none;
+    color: black;
+    font-size: 20px;
+}
+
+.load-btn a:hover {
+    background-color: rgb(133, 68, 21);
+}
+
+/* переправити картинки і зробити їх через бекраунди а не імдж */
+
+footer {
+    margin-top: 100px;
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+    background-color: #cdd8e4;
 }
