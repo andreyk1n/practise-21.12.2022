@@ -17,7 +17,6 @@ html {
 }
 
 header {
-
     width: 80vw;
     display: flex;
     justify-content: space-between;
@@ -70,6 +69,7 @@ nav ul li a:hover {
     align-items: flex-start;
     gap: 20px;
     padding: 50px;
+    
 }
 
 .muted {
@@ -80,7 +80,7 @@ nav ul li a:hover {
 }
 
 .main-content {
-
+    width: 100%;
 }
 
 .card-container {
@@ -156,7 +156,7 @@ nav ul li a:hover {
     justify-content: center;
     align-items: center;
     margin-top: 100px;
-    width: 100vw;
+    width: 100%;
     height: 30vh;
     background-color: #cdd8e4;
 }
@@ -195,6 +195,7 @@ input:checked {
 }
 
 .additional {
+    width: 100%;
     margin-top: 100px;
     display: flex;
     flex-direction: column;
@@ -235,10 +236,11 @@ input:checked {
 
 footer {
     margin-top: 100px;
-    width: 100vw;
     display: flex;
     justify-content: center;
     align-items: center;
-    padding: 20px;
+    padding-top: 20px;
+    padding-bottom: 20px;
     background-color: #cdd8e4;
+    width: 100%;
 }
