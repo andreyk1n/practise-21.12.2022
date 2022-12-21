@@ -81,9 +81,13 @@ nav ul li a:hover {
 
 .main-content {
     width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .card-container {
+    width: 80vw;
     display: grid;
     grid-template-areas: 
     'card1 card2'
@@ -228,11 +232,10 @@ input:checked {
     font-size: 20px;
 }
 
-.load-btn a:hover {
+.load-btn:hover {
     background-color: rgb(133, 68, 21);
 }
 
-/* переправити картинки і зробити їх через бекраунди а не імдж */
 
 footer {
     margin-top: 100px;
@@ -243,4 +246,88 @@ footer {
     padding-bottom: 20px;
     background-color: #cdd8e4;
     width: 100%;
+}
+
+
+@media (min-width:1241px) {
+
+}
+
+@media (min-width:769px) and (max-width:1240px) {
+
+}
+
+@media (min-width:568px) and (max-width:768px) {
+    .main-content {
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .card-container {
+        margin-left: auto;
+        width: 80vw;
+        display: grid;
+        grid-template-areas: 
+        'card1'
+        'card2'
+        'card3'
+        'card4';
+        gap: 20px;
+    }
+
+    .card1 img {
+        width: 65vw;
+        height: 50vh;
+    }
+    
+    .card2 img {
+        width: 65vw;
+        height: 50vh;
+    }
+    
+    .card3 img {
+        width: 65vw;
+        height: 50vh;
+    }
+    
+    .card4 img {
+        width: 65vw;
+        height: 50vh;
+    }
+    
+    .card1 {
+        grid-area: card1;
+        width: 65vw;
+    
+    }
+    
+    .card2 {
+        grid-area: card2;
+        width: 65vw;
+    
+    }
+    
+    .card3 {
+        grid-area: card3;
+        width: 65vw;
+    
+    }
+    
+    .card4 {
+        grid-area: card4;
+        width: 65vw;
+    
+    }
+
+    .additional-content {
+        margin-left: auto;
+        width: 80vw;
+        display: grid;
+        grid-template-areas: 
+        'card1'
+        'card2';
+        gap: 20px;
+    }
 }
