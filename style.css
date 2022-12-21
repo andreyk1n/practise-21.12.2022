@@ -78,3 +78,71 @@ nav ul li a:hover {
     text-transform: uppercase;
     text-decoration: none;
 }
+
+.main-content {
+
+}
+
+.card-container {
+    display: grid;
+    grid-template-areas: 
+    'card1 card2'
+    'card3 card4';
+    gap: 20px;
+}
+
+.card1, .card2, .card3, .card4 {
+    display: flex;
+    justify-content: space-around;
+    align-items: flex-start;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.card1 img {
+    width: 35vw;
+    height: 30vh;
+}
+
+.card2 img {
+    width: 35vw;
+    height: 30vh;
+}
+
+.card3 img {
+    width: 35vw;
+    height: 30vh;
+}
+
+.card4 img {
+    width: 35vw;
+    height: 30vh;
+}
+
+.card1 {
+    grid-area: card1;
+    width: 35vw;
+
+}
+
+.card2 {
+    grid-area: card2;
+    width: 35vw;
+
+}
+
+.card3 {
+    grid-area: card3;
+    width: 35vw;
+
+}
+
+.card4 {
+    grid-area: card4;
+    width: 35vw;
+
+}
+
+.card1 img {
+    
+}
